@@ -56,7 +56,7 @@ function App() {
 
   return (
     <>
-      <div className='text-white w-full text-xl bg-[#202938] p-2'>
+      <div className='text-white w-full text-5xl bg-[#202938] p-2'>
         <div className='ml-[10%]'>Customer Retention Assessment</div>
       </div>
       <div className="container relative mt-[2%] w-screen">

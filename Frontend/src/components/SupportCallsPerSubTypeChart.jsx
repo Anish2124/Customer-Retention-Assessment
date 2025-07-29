@@ -14,7 +14,7 @@ const SupportCallsPerSubTypeChart = () => {
     }, [])
     return (
         <div>
-            <div className="w-120 mt-2 bg-[#202938] text-center shadow-black shadow-xl ml-[26%] pb-5">
+            <div className="w-140 mt-2 bg-[#202938] text-center shadow-black shadow-xl ml-[27%] pb-5">
                 <h2 className='text-white text-center text-lg'>Support Calls Per Subscription Type</h2>
                 <ResponsiveContainer width="100%" height={300}>
                     <BarChart data={scps}>

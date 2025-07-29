@@ -13,8 +13,8 @@ const AgeDistributionChart = () => {
         fetchChartData()
     }, [])
     return (
-        <div className='w-120 mt-10 bg-[#202938] text-center shadow-black shadow-xl ml-[10%] pb-5 mb-10'>
-            <h2 className='text-white text-xl pt-5'>Age Distribution</h2>
+        <div className='w-[38%] mt-10 bg-[#202938] text-center shadow-black shadow-xl ml-[10%] pb-5 mb-10'>
+            <h2 className='text-white text-xl text-white pt-5'>Age Distribution</h2>
             <ResponsiveContainer width="100%" height={350}>
                 <BarChart data={ageData}>
                     <XAxis dataKey="agegroup" label={{ value: "Age Group", position: "bottom", offset: -10 }} />

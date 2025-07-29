@@ -11,7 +11,7 @@ const PaymentDelayvsSuppCalls = (props) => {
         }
     }, [props.payment_delay, props.support_calls])
     return (
-        <div className="w-130 mt-2 bg-[#202938] text-center shadow-black shadow-xl ml-[11.5%] pb-5 mb-10 text-white">
+        <div className="w-140 mt-2 bg-[#202938] text-center shadow-black shadow-xl ml-[14%] pb-5 mb-10 text-white">
             <h2 className="text-center h-[70px] font-semibold text-lg mb-2">Support Calls and Payment Delay</h2>
             <ResponsiveContainer width="100%" height={250}>
                 <ScatterChart margin={{ top: 20, right: 30, left: 10, bottom: 10 }}>
